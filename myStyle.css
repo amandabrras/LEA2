@@ -1,0 +1,175 @@
+
+body {
+  font-family: gorgia;
+  background-color: rgb(1, 21, 38);
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  color: rgb(1, 21, 38);
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+
+    
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  background: rgb(242, 136, 136);
+  padding: 20px;
+  text-align: left;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 30%;
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(1, 21, 38);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width:100%;
+}
+
+section {
+    background-color: rgb(132, 177, 217);
+    padding: 10px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/* overskrift h1 design */
+h1{
+font-family: gorgia;
+font-style: bold;
+font-size: 500%;
+text-align: center; 
+color: white;
+}
+
+/* overskrift h2 design */
+h2{
+font-family: gorgia;
+font-style: normal;
+font-size: 300%;
+text-align: center; 
+color:rgb(1, 21, 38);
+}
+
+/* overskrift h3 design */
+h3{
+font-style: inherit;
+font-size: 150%;
+text-align: left;  
+margin: 0;
+padding: 4%;
+}
+
+h4{
+  font-style: inherit;
+font-size: 50px;
+text-align: left;   
+margin: 0;
+padding: 0;
+}
+
+h5{
+color: rgb(1, 21, 38);
+font-size: 22px;  
+}
+
+h6{
+font-style: inherit;
+font-size: 160%;
+text-align: left; 
+color: rgb(242, 136, 136);
+}
+
+/* brødtekst p design */
+p1{
+color: white;
+font-size: 20px;
+padding:1%;
+}
+
+p2{
+color: rgb(1, 21, 38);
+font-size: 20px;
+}
+
+
+/* kasse design */
+.kasse1{
+color:white;
+float: none;
+background-color: rgb(1, 21, 38);
+width: 20%;
+height: 40%;
+overflow: hidden;
+font-size: 40;
+text-align: center;
+}
+
+.kasse2{
+color: white;
+float: inherit;
+background-color: rgb(132, 177, 217);
+width: 20%;
+height: 40%;
+overflow: hidden;
+font-size: 40;
+text-align: center;
+}
+}
+
+/*fjerner linjer under links*/
+a:active {text-decoration: none; color: rgb(1, 21, 38);}
+a:visited { text-decoration: none; color: rgb(1, 21, 38);}
+a:hover {text-decoration: none; color: rgb(3, 115, 140);}
+a {text-decoration: none; color: rgb(1, 21, 38);}
+
+/* farveskema */
+.farve1{
+    background-color: rgb(1, 21, 38);
+}
+.farve2{
+    background-color: rgb(132, 177, 217);
+}
+.farve3{
+    background-color: rgb(3, 115, 140);
+}
+.farve4{
+    background-color: rgb(4, 196, 217);
+}
+.farve5{
+    background-color: rgb(242, 136, 136);
+}
